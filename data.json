@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "name": "Rajneesh Kumar Singh",
+    "role": "Technical Lead & Solution Architect",
+    "tagline": "Architecting NestJS and GenAI-powered backends for teams across the US, UK and Canada.",
+    "location": "Jaipur, Rajasthan, India",
+    "phone": "+91 9783843316",
+    "email": "swtrajneesh@gmail.com",
+    "altEmail": "rajneeshdehri@gmail.com",
+    "linkedin": "https://linkedin.com/in/rajneesh-kumarsingh-6316bb44",
+    "resumeStack": "NestJS · Node.js · React · GraphQL · GenAI/LLM · AWS",
+    "years": "10+"
+  },
+  "stats": [
+    { "value": "10+", "label": "years in IT" },
+    { "value": "10+", "label": "engineers led" },
+    { "value": "20+", "label": "global projects delivered" },
+    { "value": "10+", "label": "countries served" }
+  ],
+  "summary": "Results-driven Technical Lead and full-stack developer with 10+ years of IT experience, including 8+ years as a backend developer specializing in Node.js. I architect and deliver enterprise web applications for global clients across the US, UK and Canada, leading technical teams of 10+ engineers on scalable backends built with NestJS, Node.js, Express and GraphQL. Recent work centers on shipping production-grade GenAI features using LLM integrations and the Model Context Protocol, backed by hands-on AWS server administration and a broad third-party API and payment-gateway integration background.",
+  "stackDiagram": {
+    "center": "Solution Architecture",
+    "nodes": [
+      "NestJS / Node.js",
+      "React",
+      "GraphQL",
+      "AWS Infra",
+      "GenAI / MCP",
+      "Data (SQL/NoSQL)"
+    ]
+  },
+  "competencies": [
+    {
+      "group": "Leadership & Delivery",
+      "items": ["Technical Leadership", "Solution Architecture", "Team Mentoring (10+ engineers)", "Agile Delivery", "Stakeholder Management"]
+    },
+    {
+      "group": "AI, GenAI & Automation",
+      "items": ["ChatGPT", "Claude", "Google Gemini API", "GitHub Copilot", "Cursor", "LLM Integration", "Prompt Engineering", "Model Context Protocol (MCP)", "RAG Pipelines"]
+    },
+    {
+      "group": "Backend & APIs",
+      "items": ["Node.js", "Express", "NestJS", "TypeORM / Sequelize", "PHP (Laravel/CakePHP)", "GraphQL", "REST APIs", "Redis / Caching"]
+    },
+    {
+      "group": "Cloud & Server Administration",
+      "items": ["AWS EC2", "S3", "SES", "SNS", "Elastic IP", "Auto Scaling", "GitHub / GitLab CI", "Windows", "Linux"]
+    },
+    {
+      "group": "Frontend & Design",
+      "items": ["Angular", "React", "MEAN / MERN Stack", "JavaScript / jQuery", "HTML", "CSS", "Bootstrap", "Photoshop"]
+    },
+    {
+      "group": "Databases",
+      "items": ["MySQL", "MongoDB", "PostgreSQL"]
+    },
+    {
+      "group": "Payment Gateways",
+      "items": ["Stripe", "PayPal", "2Checkout", "PayTab", "Mepspay", "In-App Purchases"]
+    },
+    {
+      "group": "Dev Tools",
+      "items": ["VS Code", "Source Tree", "FileZilla", "PuTTY", "WinSCP", "Notepad++", "Dreamweaver", "NetBeans"]
+    }
+  ],
+  "experience": [
+    {
+      "title": "Technical Lead / Solution Architect",
+      "company": "Konstant Infosolutions Pvt. Ltd.",
+      "period": "Jun 2015 – Present",
+      "location": "Jaipur, India (Remote for US/UK clients)",
+      "points": [
+        "Architecting enterprise solutions for US/UK clients using NestJS, Node.js, React and GraphQL across multiple concurrent engagements.",
+        "Integrating GenAI capabilities — LLM APIs and Model Context Protocol (MCP)-based tool orchestration — to modernize legacy systems and accelerate delivery.",
+        "Owning AWS server administration and infrastructure (EC2, S3, SES, SNS, Elastic IP, Auto Scaling) supporting production workloads for global clients.",
+        "Mentoring developers, conducting code reviews, and setting architecture and engineering standards across project teams.",
+        "Partnering directly with overseas stakeholders to translate business requirements into scalable technical roadmaps."
+      ]
+    },
+    {
+      "title": "Industrial Intern (PHP)",
+      "company": "MG Technosavy Pvt. Ltd.",
+      "period": "6 weeks",
+      "location": "Jaipur, India",
+      "points": [
+        "Developed an online examination project using PHP and MySQL."
+      ]
+    }
+  ],
+  "flagshipProjects": [
+    {
+      "name": "Knock Knock Pros",
+      "subtitle": "Onsite service marketplace",
+      "region": "USA",
+      "period": "2025 – 2026",
+      "stack": ["NestJS", "Node.js", "PostgreSQL"],
+      "points": [
+        "Built an onsite service marketplace connecting service providers with customers, covering provider onboarding, booking and job management.",
+        "Designed scalable backend APIs and data models to support real-time provider-customer matching.",
+        "Collaborated with US-based stakeholders to shape product features and prioritize the delivery roadmap."
+      ]
+    },
+    {
+      "name": "MatchCreatorz",
+      "subtitle": "Digital job-matching platform",
+      "region": "USA",
+      "period": "2024 – 2025",
+      "stack": ["Node.js", "GraphQL", "React"],
+      "points": [
+        "Developed a digital job-matching platform connecting US-based clients with onsite project professionals.",
+        "Implemented core matching and listing workflows, focusing on usability and reliable data handling.",
+        "Worked cross-functionally with product and design to refine the end-to-end user journey."
+      ]
+    },
+    {
+      "name": "Fitsentive",
+      "subtitle": "Fitness rewards application",
+      "region": "Global",
+      "period": "2022 – 2023",
+      "stack": ["Node.js", "Sequelize", "MySQL"],
+      "points": [
+        "Built a fitness rewards application to track user activity and incentives.",
+        "Designed relational data models and reward-calculation logic to support engagement-based rewards.",
+        "Delivered the application end-to-end, from architecture through deployment."
+      ]
+    }
+  ],
+  "additionalProjects": [
+    { "name": "Offleashd", "region": "USA", "description": "Social platform for pet owners." },
+    { "name": "Gozaround", "region": "Canada", "description": "Community humanitarian aid platform." },
+    { "name": "Hapinen", "region": "Mobile App", "description": "Discover and share local events with friends and family — built with Node.js and MongoDB." },
+    { "name": "CleanLine", "region": "Mobile App", "description": "On-demand laundry booking solution for customers — built with Node.js and MongoDB." },
+    { "name": "MTACTAC", "region": "Web Platform", "description": "Progressive Web App for a proofreading services provider — built with Node.js, Angular and MongoDB." },
+    { "name": "Oyraa", "region": "Global Platform", "description": "Online platform connecting professional interpreters with businesses worldwide — built with Express.js and MongoDB." },
+    { "name": "Dissertation Home Work", "region": "UK", "description": "Academic writing services platform — built with PHP and MySQL." }
+  ],
+  "education": [
+    { "degree": "B.Tech, Computer Science & Engineering", "institution": "RTU", "year": "2011" },
+    { "degree": "Class XII & X", "institution": "Bihar Board", "year": "" }
+  ],
+  "certifications": [
+    { "name": "PHP Certified", "issuer": "Jan 2010" },
+    { "name": "AutoCAD Foundation", "issuer": "CADD Centre, Jaipur" },
+    { "name": "Certificate of Completion — Claude Code Action", "issuer": "" },
+    { "name": "Certificate of Participation — AWS Community Day", "issuer": "" }
+  ],
+  "languages": [
+    { "name": "Hindi", "level": "Native" },
+    { "name": "English", "level": "Professional Proficiency" }
+  ]
+}

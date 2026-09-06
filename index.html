@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rajneesh Kumar Singh — Technical Lead &amp; Solution Architect</title>
+<meta name="description" content="Portfolio of Rajneesh Kumar Singh, Technical Lead & Solution Architect specializing in NestJS, Node.js and GenAI integrations.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="rule-left" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#top" class="brand" id="brand-name">RKS</a>
+    <nav class="main-nav" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#background">Background</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </nav>
+    <div class="theme-switcher" aria-label="Choose colour theme">
+      <button class="theme-btn theme-btn--light" data-theme-target="light" data-active="false" title="Light theme" aria-label="Light theme"></button>
+      <button class="theme-btn theme-btn--dark"  data-theme-target="dark"  data-active="true" title="Dark theme"  aria-label="Dark theme"></button>
+      <button class="theme-btn theme-btn--teal"  data-theme-target="teal"  data-active="false" title="Teal theme"  aria-label="Teal theme"></button>
+      <button class="theme-btn theme-btn--sky"   data-theme-target="sky"   data-active="false" title="Sky Blue theme" aria-label="Sky Blue theme"></button>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero wrap" id="hero">
+    <div class="hero-copy">
+      <p class="hero-kicker" id="hero-location">Jaipur, Rajasthan, India</p>
+      <h1 id="hero-name">—</h1>
+      <p class="hero-role" id="hero-role">—</p>
+      <p class="hero-tagline" id="hero-tagline">—</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Start a conversation</a>
+        <a href="#experience" class="btn btn-ghost">See the work</a>
+      </div>
+      <dl class="stat-row" id="stat-row"></dl>
+    </div>
+    <div class="hero-diagram">
+      <svg id="stackSvg" viewBox="0 0 480 480" role="img" aria-labelledby="diagramTitle">
+        <title id="diagramTitle">Diagram of core technical stack radiating from solution architecture</title>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ABOUT / SUMMARY -->
+  <section class="section" id="about">
+    <div class="wrap section-grid">
+      <div class="section-heading">
+        <h2>Profile</h2>
+      </div>
+      <div class="section-body">
+        <p id="summary-text" class="lede">—</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPETENCIES -->
+  <section class="section" id="competencies">
+    <div class="wrap section-grid">
+      <div class="section-heading">
+        <h2>Where I operate</h2>
+        <p class="section-sub">Core competencies across leadership, AI and infrastructure.</p>
+      </div>
+      <div class="section-body">
+        <div class="competency-grid" id="competency-grid"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section" id="experience">
+    <div class="wrap section-grid">
+      <div class="section-heading">
+        <h2>Experience</h2>
+      </div>
+      <div class="section-body">
+        <ol class="timeline" id="timeline"></ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="wrap section-grid">
+      <div class="section-heading">
+        <h2>Flagship projects</h2>
+        <p class="section-sub">Three engagements that best represent the range of the work.</p>
+      </div>
+      <div class="section-body">
+        <div class="project-list" id="flagship-projects"></div>
+      </div>
+    </div>
+
+    <div class="wrap section-grid additional-block">
+      <div class="section-heading">
+        <h2>Also shipped</h2>
+      </div>
+      <div class="section-body">
+        <div class="additional-grid" id="additional-projects"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION / CERTS / LANGUAGES -->
+  <section class="section" id="background">
+    <div class="wrap section-grid">
+      <div class="section-heading">
+        <h2>Background</h2>
+      </div>
+      <div class="section-body background-columns">
+        <div class="bg-col">
+          <h3>Education</h3>
+          <ul id="education-list" class="plain-list"></ul>
+        </div>
+        <div class="bg-col">
+          <h3>Certifications</h3>
+          <ul id="cert-list" class="plain-list"></ul>
+        </div>
+        <div class="bg-col">
+          <h3>Languages</h3>
+          <ul id="lang-list" class="plain-list"></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact-section" id="contact">
+    <div class="wrap contact-grid">
+      <div>
+        <h2>Let's build something.</h2>
+        <p class="lede">Available for technical leadership, solution architecture and GenAI integration engagements.</p>
+      </div>
+      <div class="contact-details" id="contact-details"></div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <span id="footer-name">—</span>
+    <span id="footer-year"></span>
+  </div>
+</footer>
+
+<!-- WhatsApp floating button -->
+<a class="whatsapp-float" id="whatsapp-float" href="#" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+  </svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
